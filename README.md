@@ -153,6 +153,76 @@ The inventory is stored as a list of lists, where each item has a name and a sta
 
 ---
 
+### 6. 💸 Expense Tracker (CLI)
+
+A command-line expense management system built with Python. This project allows users to add, view, update, delete, and summarize expenses — all from the terminal.
+
+---
+
+## 🚀 Features
+
+- Add new expenses with month, description, and amount
+- View all recorded expenses in a formatted list
+- Update existing expenses by ID
+- Delete expenses by ID
+- View total expenses across all months
+- View a monthly expense summary
+
+---
+
+---
+
+## 📸 How It Works
+
+The program runs a menu-driven loop where the user selects an action:
+
+```
+1. View Expenses
+2. Add Expenses
+3. Delete Expenses
+4. Update Expenses
+5. View Total Expenses
+6. Monthly Summary
+7. Exit
+```
+
+Each expense is stored as:
+```python
+[ID, Month, Description, Amount]
+```
+
+---
+
+---
+
+## ▶️ How to Run
+
+```bash
+python expense_tracker.py
+```
+
+> Tested on Python 3.x via Termux (Android) and Pydroid 3.
+
+---
+
+## 📁 Project Structure
+
+```
+expense_tracker/
+└── expense_tracker.py
+```
+
+---
+
+## 🔮 Future Improvements
+
+- Save expenses to a file (CSV or JSON) for persistence
+- Input validation and error handling for invalid entries
+- Filter expenses by description keyword
+- Export monthly summary as a report
+
+---
+
 ## ⚙️ Requirements
 - Python 3.x
 - No external libraries needed
