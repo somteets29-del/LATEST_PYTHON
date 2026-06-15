@@ -157,8 +157,6 @@ The inventory is stored as a list of lists, where each item has a name and a sta
 
 A command-line expense management system built with Python. This project allows users to add, view, update, delete, and summarize expenses — all from the terminal.
 
----
-
 ## 🚀 Features
 
 - Add new expenses with month, description, and amount
@@ -167,10 +165,6 @@ A command-line expense management system built with Python. This project allows 
 - Delete expenses by ID
 - View total expenses across all months
 - View a monthly expense summary
-
----
-
----
 
 ## 📸 How It Works
 
@@ -191,10 +185,6 @@ Each expense is stored as:
 [ID, Month, Description, Amount]
 ```
 
----
-
----
-
 ## ▶️ How to Run
 
 ```bash
@@ -203,25 +193,12 @@ python expense_tracker.py
 
 > Tested on Python 3.x via Termux (Android) and Pydroid 3.
 
----
-
 ## 📁 Project Structure
 
 ```
 expense_tracker/
 └── expense_tracker.py
 ```
-
----
-
-## 🔮 Future Improvements
-
-- Save expenses to a file (CSV or JSON) for persistence
-- Input validation and error handling for invalid entries
-- Filter expenses by description keyword
-- Export monthly summary as a report
-
----
 
 ## ⚙️ Requirements
 - Python 3.x
